@@ -82,12 +82,33 @@ nav ul {
   top: 90px;
 }
 
+.about-us {
+  background-color: #f5f5f5;
+}
+
 .about-us h3 {
-  font-size: 0.9em;
+  font-size: 1.5em;
   font-weight: 700;
-  margin-top: 50px;
+  padding-top: 50px;
   color: #bf1e2d;
   letter-spacing: 3px;
+}
+
+.about-us p {
+  color: #0f3559;
+  padding-bottom: 50px;
+}
+.meet-team h1 {
+  color: #0f3559;
+  font-weight: 800;
+  font-size: 2.6em;
+  margin-top: 0;
+}
+
+.meet-team h2 {
+  color: #bf1e2d;
+  font-weight: 600;
+  font-size: 1em;
 }
 
 .alert {
