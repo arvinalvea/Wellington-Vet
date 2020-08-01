@@ -38,20 +38,11 @@ nav a:hover {
 
 nav ul {
   display: flex;
-  /* background-color: blueviolet; */
   justify-content: space-around;
   align-items: center;
-  /* width: 50%; */
   list-style-type: none;
   font-weight: 700;
 }
-
-/* #jumbotron-img {
-  max-width: 100%;
-  height: auto;
-  position: relative;
-  z-index: -1;
-} */
 
 .jumbotronUser {
   background-image: url("/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/jamie-street-s9Tf1eBDFqw-unsplash (1).jpg");
@@ -89,15 +80,18 @@ nav ul {
   position: absolute;
   z-index: -1;
   top: 90px;
-  /* top: 25%;
-  left: 50%;
-  transform: translate(-50%, -50%);  */
 }
 
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
+.about-us h3 {
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-top: 50px;
+  color: #bf1e2d;
+  letter-spacing: 3px;
+}
+
+.alert {
+  margin-bottom: 0;
 }
 
 /* ============================================= */
