@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <img src="img/logo.png" alt="Wellington Vet Logo" />
       <button
         class="navbar-toggler"
@@ -123,19 +123,81 @@
       <div class="container">
         <h2 class="text-center mt-5">Our Doctors</h2>
 
-        <div class="card container" style="width: 18rem;">
+        <div class="card" style="width: 18rem;">
           <img
             src="/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/cliff.jpg"
             class="card-img-top"
             alt="Cliff Redford"
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">Dr. Cliff Redford</h5>
+
             <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
+              I grew up always wanting to be a veterinarian and in 1998 my dream
+              came true when I graduated from one of the world's top veterinary
+              schools; Ontario Veterinary College.<br /><br />
             </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-toggle="modal"
+              data-target="#cliffModal"
+            >
+              Learn More
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="cliffModal"
+              tabindex="-1"
+              aria-labelledby="cliffModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="cliffeModalLabel">
+                      Dr. Cliff Redford
+                    </h5>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    I grew up always wanting to be a veterinarian and in 1998 my
+                    dream came true when I graduated from one of the world's top
+                    veterinary schools; Ontario Veterinary College. Within 18
+                    months I purchased Wellington Veterinary Hospital and have
+                    been the owner ever since.<br /><br />
+                    My special interests are soft tissue surgery, advanced
+                    dental procedures, internal medicine and emergency care. I
+                    volunteer with various animal rescue groups and even work
+                    with a local wildlife rescue where I get to help care for
+                    hawks and owls, porcupines and even skunks!<br /><br />
+                    On my spare time you will find me running with my
+                    Labradoodle named Thalia, learning how to play the guitar,
+                    or vacationing in the Caribbean or Europe. Typically, I
+                    spend half of my time on these vacations working with local
+                    animal rescues as I find not only can I help but I learn so
+                    much from the veterinarians abroad.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
