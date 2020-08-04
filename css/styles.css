@@ -97,22 +97,50 @@ nav ul {
 .about-us p {
   color: #0f3559;
   padding-bottom: 50px;
+  margin-bottom: 0;
 }
-.meet-team h1 {
-  color: #0f3559;
+
+.meet-team-heading {
+  background-image: url("/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/IMG_2236.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 70vh;
+  position: relative;
+  z-index: -1;
+}
+
+.meet-team-heading h1 {
+  color: white;
   font-weight: 800;
   font-size: 2.6em;
   margin-top: 0;
+  position: absolute;
+  z-index: -1;
+  top: 90px;
 }
 
-.meet-team h2 {
-  color: #bf1e2d;
+.meet-team-heading h2 {
+  color: white;
   font-weight: 600;
-  font-size: 1em;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  position: absolute;
+  z-index: -1;
+  top: 14%;
+  left: 20%;
+  transform: translate(-50%, -50%);
 }
 
 .alert {
   margin-bottom: 0;
+}
+
+.meet-team-content h2 {
+  color: #0f3559;
+  font-weight: 800;
+  font-size: 2.4em;
 }
 
 /* ============================================= */
