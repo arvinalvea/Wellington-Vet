@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <img src="img/logo.png" alt="Wellington Vet Logo" />
       <button
         class="navbar-toggler"
@@ -135,11 +135,11 @@
             <p class="card-text">
               I grew up always wanting to be a veterinarian and in 1998 my dream
               came true when I graduated from one of the world's top veterinary
-              schools; Ontario Veterinary College.<br /><br />
+              schools; Ontario Veterinary College.
             </p>
             <button
               type="button"
-              class="btn btn-primary"
+              class="btn btn-sm btn-outline-primary"
               data-toggle="modal"
               data-target="#cliffModal"
             >
@@ -153,12 +153,13 @@
               aria-labelledby="cliffModalLabel"
               aria-hidden="true"
             >
-              <div class="modal-dialog modal-dialog-scrollable">
+              <div class="modal-dialog">
                 <div class="modal-content">
                   <div class="modal-header">
-                    <h5 class="modal-title" id="cliffeModalLabel">
+                    <h5 class="modal-title" id="cliffModalLabel">
                       Dr. Cliff Redford
                     </h5>
+
                     <button
                       type="button"
                       class="close"
@@ -169,6 +170,11 @@
                     </button>
                   </div>
                   <div class="modal-body">
+                    <img
+                      src="/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/cliff.jpg"
+                      class="card-img-top"
+                      alt="Cliff Redford"
+                    /><br /><br />
                     I grew up always wanting to be a veterinarian and in 1998 my
                     dream came true when I graduated from one of the world's top
                     veterinary schools; Ontario Veterinary College. Within 18
@@ -189,7 +195,7 @@
                   <div class="modal-footer">
                     <button
                       type="button"
-                      class="btn btn-secondary"
+                      class="btn btn-sm btn-outline-secondary"
                       data-dismiss="modal"
                     >
                       Close
@@ -201,61 +207,148 @@
           </div>
         </div>
 
-        <!-- <img
-          src="/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/cliff.jpg"
-          alt="Cliff Redford"
-          class=""
-        /> -->
+        <!-- Employee Card  -->
+        <div class="card" style="width: 18rem;">
+          <img
+            src="/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/shaneez.jpg"
+            class="card-img-top"
+            alt="Dr. Shaneez Wallani"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Dr. Shaneez Wallani</h5>
+
+            <p class="card-text">
+              I realized my calling in life at an early age, and began working
+              toward my goal of becoming a veterinarian when I was in elementary
+              school. I have a BSc Honours in Biology from Trent University, and
+              graduated from Saint George’s University with my DVM degree after
+              completing my clinical year at Cornell University.
+            </p>
+            <button
+              type="button"
+              class="btn btn-sm btn-outline-primary"
+              data-toggle="modal"
+              data-target="#shaneezModal"
+            >
+              Learn More
+            </button>
+            <!-- Modal -->
+            <div
+              class="modal fade"
+              id="shaneezModal"
+              tabindex="-1"
+              aria-labelledby="shaneezModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="shaneezModalLabel">
+                      Dr. Shaneez Wallani
+                    </h5>
+
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <img
+                      src="/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/shaneez.jpg"
+                      class="card-img-top"
+                      alt="Dr. Shaneez Wallani"
+                    /><br /><br />
+                    I realized my calling in life at an early age, and began
+                    working toward my goal of becoming a veterinarian when I was
+                    in elementary school. I have a BSc Honours in Biology from
+                    Trent University, and graduated from Saint George’s
+                    University with my DVM degree after completing my clinical
+                    year at Cornell University.<br /><br />
+                    I split my time between Wellington Veterinary Hospital and a
+                    shelter wellness clinic in Toronto, in order to help pets
+                    and pet owners who would otherwise be unable to access
+                    veterinary care. I have a special interest in preventive and
+                    holistic care and pain management, and became a Certified
+                    Canine Massage Therapist in 2019. <br /><br />
+                    In my free time I enjoy reading, practicing yoga, and
+                    spending time with my pets; a former street dog or
+                    “Pothound” from Grenada, and an orange tabby who was rescued
+                    from a hoarding situation in Georgia. I'm currently working
+                    toward becoming a Certified Veterinary Acupuncturist, and am
+                    involved in a shelter transfer project to help Pothounds in
+                    need find homes in Toronto.
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary"
+                      data-dismiss="modal"
+                    >
+                      Close
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+      <div class="review-highlight">
+        <p class="text-center">
+          "This place has given me such quality service and they are all such
+          kind workers! Definitely coming back here for all my animal needs."
+          <br /><br />
+          Cole L.
+        </p>
+      </div>
+      <div class="container">
+        <!-- Employee Card  -->
+        <div class="card" style="width: 18rem;">
+          <img
+            src="/Users/Arvin/Desktop/WellingtonProject/Wellington-Vet/img/shaneez.jpg"
+            class="card-img-top"
+            alt="Jessica Wilshire"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jessica Wilshire</h5>
+
+            <p class="card-text">
+              Office Manager/Customer Service Representative
+            </p>
+          </div>
+        </div>
+      </div>
+      <h1>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor,
+        lorem eu finibus sodales, leo elit gravida diam, eu cursus neque nunc in
+        massa. Ut vitae tempus tellus. Ut placerat nisl mauris. Maecenas
+        eleifend porttitor volutpat. Aenean aliquam eu magna eget posuere.
+        Maecenas sed elementum tellus. Praesent quis felis nulla. Fusce vitae
+        felis eu libero sodales lacinia ac sed ex. Vestibulum mattis accumsan
+        est, in dictum erat blandit sit amet. Donec vehicula non elit ac
+        ullamcorper. Nunc convallis risus metus, eget ultricies ligula hendrerit
+        posuere. Phasellus condimentum, lectus nec molestie bibendum, nunc neque
+        semper dui, et blandit felis justo lacinia lorem. Vivamus suscipit ex at
+        purus facilisis aliquet. Mauris ut egestas ex. Quisque lacinia sit amet
+        purus at rhoncus. Pellentesque habitant morbi tristique senectus et
+        netus et malesuada fames ac turpis egestas. Ut condimentum ex mauris,
+        posuere viverra nisl scelerisque a. Curabitur hendrerit nisl a nunc
+        iaculis mollis. Aliquam vel mi eget erat porta condimentum et eget
+        magna. Mauris commodo massa lectus, eu posuere justo aliquet in. Duis
+        diam odio, fermentum non diam sed, facilisis facilisis urna. Praesent
+        convallis viverra arcu sed feugiat. In nec tincidunt arcu, nec tristique
+        sapien. Praesent eu gravida tortor. Suspendisse tincidunt lorem ac eros
+        condimentum, facilisis cursus neque vestibulum. Suspendisse elit sem,
+        feugiat non nibh eget, scelerisque volutpat sapien. Donec sapien tortor,
+        volutpat et elementum in, porta eu ex. Vestibulum vulputate placerat
+        nisl in interdum. Integer nec blandit mi.
+      </h1>
     </div>
-    <h1>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tempor
-      eleifend elementum. Morbi sed mollis erat. Proin iaculis risus id felis
-      pulvinar consectetur. In dignissim pretium diam nec scelerisque.
-      Vestibulum mi ipsum, laoreet a libero sed, sollicitudin eleifend neque.
-      Vivamus pulvinar volutpat nisl vitae hendrerit. Donec convallis quam sit
-      amet mi posuere, quis imperdiet purus accumsan. Etiam sodales dictum
-      cursus. Integer ut odio vestibulum, luctus tortor in, placerat nibh. Donec
-      at nunc nunc. Praesent arcu lectus, aliquet ullamcorper ornare
-      consectetur, consequat sed nunc. Cras dolor dui, tincidunt quis est sed,
-      cursus tincidunt leo. Nunc hendrerit pellentesque ipsum, sed tempus magna
-      dapibus eget. Donec at rhoncus urna. Pellentesque faucibus orci vel semper
-      ornare. Nam vehicula enim sit amet venenatis porttitor. Proin lacus leo,
-      malesuada ac massa et, consectetur suscipit dui. Donec porttitor, mi vitae
-      pellentesque ultricies, ex ante lacinia metus, ut hendrerit diam nibh
-      suscipit erat. Nulla facilisi. Fusce efficitur, tortor eu ultrices
-      consequat, odio lacus ornare nunc, faucibus tempor urna urna vel nisl.
-      Pellentesque lobortis elit nibh, eget luctus mi gravida vitae. Duis
-      vehicula vel felis ut laoreet. Integer viverra quis tellus vitae
-      pellentesque. Cras sed condimentum nunc. Fusce vel nunc quis risus mattis
-      vulputate ut et ligula. Suspendisse commodo dolor at leo lacinia viverra.
-      Donec dui enim, viverra a suscipit quis, mattis eu risus. Aliquam pharetra
-      enim ullamcorper, posuere nunc sit amet, bibendum metus. In eu nulla id
-      augue eleifend dapibus. Cras quis accumsan velit. Pellentesque ut finibus
-      nisi. Integer non ullamcorper lorem. Praesent sed venenatis lectus.
-      Vivamus dui magna, bibendum vel venenatis sit amet, dapibus pretium quam.
-      Curabitur varius, orci ac bibendum hendrerit, ante tellus molestie eros,
-      cursus vestibulum est nunc ac felis. Duis et lectus eu velit scelerisque
-      convallis. Vestibulum mattis ex sit amet ultrices rhoncus. Morbi at dolor
-      dictum, laoreet ex ut, semper libero. Donec sagittis, metus eget feugiat
-      malesuada, eros magna aliquet lacus, quis hendrerit magna libero aliquet
-      justo. Suspendisse porttitor enim ac dignissim sagittis. Mauris egestas,
-      quam ut semper tristique, est mi efficitur est, nec commodo lacus massa ac
-      libero. Nam ac leo eros. Phasellus dignissim faucibus dolor ultricies
-      congue. Morbi posuere feugiat elit eget vehicula. Integer sit amet
-      tincidunt quam. Nullam non eros eu massa ornare blandit. Fusce facilisis
-      tempus nisi, ut laoreet neque condimentum maximus. Ut in feugiat magna.
-      Sed nec hendrerit purus. Integer vulputate tellus eget vehicula egestas.
-      Nunc dolor urna, rutrum sed libero non, dapibus ornare lectus. Cras risus
-      ipsum, faucibus nec pharetra id, elementum semper nisl. Phasellus sed
-      mattis odio. Integer scelerisque enim hendrerit enim tincidunt semper.
-      Donec eget sollicitudin justo. Aliquam sollicitudin ut massa ut
-      consectetur. Pellentesque pharetra faucibus ante id facilisis. Mauris
-      rutrum diam mi, ut fringilla purus porta vel. Vivamus pharetra dictum
-      dolor ut vehicula. Proin accumsan, mauris et viverra sagittis, nisi nibh
-      tempor elit, egestas fringilla massa ante et massa. Aenean aliquet auctor
-      erat, blandit aliquet mauris eleifend quis.
-    </h1>
+
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
