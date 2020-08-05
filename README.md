@@ -1,2 +1,2 @@
 # Wellington-Vet
- Wellington Vet Hosptial Landing Page
+ Wellington Vet Hospital Landing Page
