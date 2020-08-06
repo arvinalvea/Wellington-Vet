@@ -89,15 +89,19 @@ nav ul {
 }
 
 .about-us h3 {
-  font-size: 2em;
+  font-size: 2.4em;
   font-weight: 800;
   padding-top: 50px;
   color: #0f3559;
 }
 
+.about-us img {
+  width: 100%;
+}
+
 .about-us p {
   color: #3e5b76;
-  font-size: 0.9em;
+  font-size: 1.5em;
   padding-bottom: 50px;
   margin-bottom: 0;
 }
@@ -258,5 +262,11 @@ blockquote {
 @media (min-width: 576px) {
   blockquote p {
     font-size: 1.5em;
+  }
+}
+
+@media (min-width: 768px) {
+  .jumbotron-title h2 {
+    max-width: 50%;
   }
 }
