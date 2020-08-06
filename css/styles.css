@@ -206,6 +206,14 @@ nav ul {
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+  height: 60vh;
+}
+
+blockquote {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
 }
 
 .color-overlay {
@@ -238,6 +246,17 @@ nav ul {
 .footer-contact a:hover {
   color: lightgray;
 }
+
+.card-img-top {
+  height: 360px !important;
+}
+
 /* ============================================= */
-/*              Media queries                    */
+/*              Media Queries                    */
 /* ============================================= */
+
+@media (min-width: 576px) {
+  blockquote p {
+    font-size: 1.5em;
+  }
+}
